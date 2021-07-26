@@ -7,4 +7,4 @@ This app takes input of bill amount and cash given by customer. And shows output
 
 ### Programming Language:
 
-App is created in Html, Css and Vanilla JS. Hosted on netlify.
+App is created in HTML, CSS and Vanilla JS. Hosted on netlify.

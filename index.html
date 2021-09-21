@@ -4,15 +4,115 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cash Register Manager</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Cashier Manager</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Cash Register Manager</h1>
-    <p>
-      Enter the bill amount and cash given by the customer and know minimum
-      number of notes to return.
-    </p>
+    <div class="container">
+      <header>
+        <h1 class="heading">Cash Register Manager</h1>
+        <p class="description">
+          Enter the bill amount and cash given by the customer and know minimum
+          number of notes to return.
+        </p>
+      </header>
+
+      <div>
+        <label for="billAmt" class="label">Bill Amount: </label>
+        <input type="number" class="input" />
+      </div>
+
+      <div class="cashGivenInput">
+        <div class="label">Cash Given:</div>
+        <input type="number" class="input" /><br />
+        <button id="btn-check">Check</button>
+      </div>
+      <div class="errorMsg"></div>
+      <div class="changeReturn">
+        <div class="label">Return Change:</div>
+        <div id="output">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Notes</th>
+                <th>No of Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2000</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>500</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>200</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>100</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>50</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <section id="footer">
+        <footer>
+          <ul>
+            <li class="footerLink">
+              <a href="https://github.com/MauliMogal" target="_blank">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="footerLink">
+              <a href="https://twitter.com/MauliMogal" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="footerLink">
+              <a href="https://www.linkedin.com/in/maulimogal/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li class="footerLink">
+              <a href="https://www.maulimogal.com/" target="_blank">
+                <i class="fas fa-briefcase"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="legacyText">© 2021 | Mauli Mogal</div>
+        </footer>
+      </section>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

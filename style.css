@@ -45,7 +45,8 @@ header {
   margin-right: auto;
 }
 
-#btn-check {
+#btn-check,
+#nextBtn {
   background: black;
   border: none;
   color: #fff;
@@ -56,6 +57,22 @@ header {
   outline: #fff;
   margin: auto;
   display: block;
+}
+
+.cashGivenInput {
+  display: none;
+}
+.changeReturn {
+  display: none;
+}
+
+.errorMsg {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
 }
 #output {
   font-size: x-large;

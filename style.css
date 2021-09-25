@@ -107,6 +107,8 @@ td {
   word-wrap: break-word;
 }
 
+/* footer */
+
 footer {
   margin-top: auto;
 }
@@ -123,6 +125,10 @@ footer {
   list-style: none;
   padding: 1.5rem 1rem 1rem;
   font-size: 1.1rem;
+}
+
+i {
+  color: black;
 }
 
 .legacyText {
